@@ -1,70 +1,63 @@
 const tasksInput = [
   {
     id: 1,
-    part1:
-      'The metal object that hangs on the wall and keeps us warm is called a',
+    part1: ' If the temperature is low, it is',
     part2: '.',
-    correct: 'radiator',
+    correct: 'cold',
   },
   {
     id: 2,
-    part1: 'A',
-    part2: 'is made from glass and you can look outside through it.',
-    correct: 'window',
+    part1: 'The big, yellow, hot thing in the sky is the',
+    part2: '.',
+    correct: 'sun',
   },
   {
     id: 3,
-    part1: 'The',
-    part2: 'is found at the top part of the room where the lights usually are.',
-    correct: 'ceiling',
+    part1: 'Quite hot, but not too hot, is',
+    part2: '.',
+    correct: 'warm',
   },
   {
     id: 4,
-    part1: 'The',
-    part2:
-      's found on the bottom part of the room where the carpet usually is.',
-    correct: 'floor',
+    part1: 'A white or grey shape in the sky is a',
+    part2: '.',
+    correct: 'cloud',
   },
   {
     id: 5,
-    part1:
-      'A colourful and sometimes beautiful decoration we put on the floor is called a',
+    part1: 'Water from the sky is called ',
     part2: '.',
-    correct: 'carpet',
+    correct: 'rain',
   },
   {
     id: 6,
-    part1:
-      'The plastic object where you can plug your electronic items such as a computer or TV is called a',
+    part1: 'Water vapour in the air near the ground is called',
     part2: '.',
-    correct: 'socket',
+    correct: 'fog',
   },
   {
     id: 7,
-    part1: 'A',
-    part2:
-      'is a plastic object you have to press to turn the lights on and off.',
-    correct: 'switch',
+    part1: 'When it rains, everything is',
+    part2: '.',
+    correct: 'wet',
   },
   {
     id: 8,
-    part1: 'There are usually four',
-    part2: 'in a room, above the floor but below the ceiling.',
-    correct: 'walls',
+    part1: 'A',
+    part2: 'is bad weather for boats, with thunder and lightning.',
+    correct: 'storm',
   },
   {
     id: 9,
     part1: 'A',
-    part2:
-      'is usually made from wood and you can enter or leave a room through it.',
-    correct: 'door',
+    part2: 'is moving air. It makes trees and things move.',
+    correct: 'wind',
   },
   {
     id: 10,
-    part1:
-      'The object that hangs on the wall and blows out hot or cold air is called the',
+    part1: ' If there is no rain, the ground is',
     part2: '.',
-    correct: 'air-condition',
+    correct: 'dry',
   },
 ];
 

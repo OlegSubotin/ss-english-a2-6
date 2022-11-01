@@ -9,7 +9,7 @@ const DescriptionContent = () => {
         <li className={s.item}>
           <Link to='vocabulary'>
             <h4 className={s.title}>Vocabulary block</h4>
-            <p className={s.text}>Vocabulary exercises to help learn words for things you can see in a room (air-condition, carpet, ceiling, door, floor, heating, light, radiator, socket, switch, wall, window).</p>
+            <p className={s.text}>Vocabulary exercises to help learn words for talking about the weather. (hot, snow, wet, sun, dry, cold, storm, fog, wind, cloud, rain, warm).</p>
           </Link>
         </li>
         <li className={s.item}>

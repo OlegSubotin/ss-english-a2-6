@@ -12,7 +12,7 @@ const VocabularyPage = () => {
   return (
     <Container>
       <Section>
-        <Task accentText="Exercise 1" text="Vocabulary exercises to help learn words for things you can see in a room." />
+        <Task accentText="Exercise 1" text="Vocabulary exercises to help learn words for talking about the weather." />
         <WordsImagesList/>
       </Section>      
       <Section>

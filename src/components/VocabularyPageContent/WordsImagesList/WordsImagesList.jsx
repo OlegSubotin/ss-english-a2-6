@@ -1,80 +1,80 @@
 import React from 'react';
 import s from "./WordsImagesList.module.css";
-import aircondition from "../../../db/vocabularyImages/aircondition.jpg"
-import carpet from "../../../db/vocabularyImages/carpet.jpg"
-import ceiling from "../../../db/vocabularyImages/ceiling.jpg"
-import door from "../../../db/vocabularyImages/door.jpg"
-import floor from "../../../db/vocabularyImages/floor.jpg"
-import heating from "../../../db/vocabularyImages/heating.jpg"
-import light from "../../../db/vocabularyImages/light.jpg"
-import radiator from "../../../db/vocabularyImages/radiator.jpg"
-import socket from "../../../db/vocabularyImages/socket.jpg"
-import switchEl from "../../../db/vocabularyImages/switch.jpg"
-import wall from "../../../db/vocabularyImages/wall.jpg"
-import window from "../../../db/vocabularyImages/window.jpg"
+import cloud from "../../../db/vocabularyImages/cloud.jpg"
+import cold from "../../../db/vocabularyImages/cold.jpg"
+import dry from "../../../db/vocabularyImages/dry.jpg"
+import fog from "../../../db/vocabularyImages/fog.jpg"
+import hot from "../../../db/vocabularyImages/hot.jpg"
+import rain from "../../../db/vocabularyImages/rain.jpg"
+import snow from "../../../db/vocabularyImages/snow.jpg"
+import storm from "../../../db/vocabularyImages/storm.jpg"
+import sun from "../../../db/vocabularyImages/sun.jpg"
+import warm from "../../../db/vocabularyImages/warm.jpg"
+import wet from "../../../db/vocabularyImages/wet.jpg"
+import wind from "../../../db/vocabularyImages/wind.jpg"
 
 const WordsImagesList = () => {
   return (
     <div>
       <ul className={s.list}>
         <li className={s.item}>
-          <img src={aircondition} alt="air-condition" width='190' />
-          <p className={s.text}>air-condition</p>
+          <img src={cloud} alt="cloud" width='190' />
+          <p className={s.text}>cloud</p>
         </li>
 
         <li className={s.item}>
-          <img src={carpet} alt="carpet" width='190' />
-          <p className={s.text}>carpet</p>
+          <img src={cold} alt="cold" width='190' />
+          <p className={s.text}>cold</p>
         </li>
         
         <li className={s.item}>
-          <img src={ceiling} alt="ceiling" width='190' />
-          <p className={s.text}>ceiling</p>
+          <img src={dry} alt="dry" width='190' />
+          <p className={s.text}>dry</p>
         </li>
         
         <li className={s.item}>
-          <img src={door} alt="door" width='190' />
-          <p className={s.text}>door</p>
+          <img src={fog} alt="fog" width='190' />
+          <p className={s.text}>fog</p>
         </li>
         
         <li className={s.item}>
-          <img src={floor} alt="floor" width='190' />
-          <p className={s.text}>floor</p>
+          <img src={hot} alt="hot" width='190' />
+          <p className={s.text}>hot</p>
         </li>
         
         <li className={s.item}>
-          <img src={heating} alt="heating" width='190' />
-          <p className={s.text}>heating</p>
+          <img src={rain} alt="rain" width='190' />
+          <p className={s.text}>rain</p>
         </li>
 
         <li className={s.item}>
-          <img src={light} alt="light" width='190' />
-          <p className={s.text}>light</p>
+          <img src={snow} alt="snow" width='190' />
+          <p className={s.text}>snow</p>
         </li>
 
         <li className={s.item}>
-          <img src={radiator} alt="radiator" width='190' />
-          <p className={s.text}>radiator</p>
+          <img src={storm} alt="storm" width='190' />
+          <p className={s.text}>storm</p>
         </li>
 
         <li className={s.item}>
-          <img src={socket} alt="socket" width='190' />
-          <p className={s.text}>socket</p>
+          <img src={sun} alt="sun" width='190' />
+          <p className={s.text}>sun</p>
         </li>
 
         <li className={s.item}>
-          <img src={switchEl} alt="switch" width='190' />
-          <p className={s.text}>switch</p>
+          <img src={warm} alt="warm" width='190' />
+          <p className={s.text}>warm</p>
         </li>
 
         <li className={s.item}>
-          <img src={wall} alt="wall" width='190' />
-          <p className={s.text}>wall</p>
+          <img src={wet} alt="wet" width='190' />
+          <p className={s.text}>wet</p>
         </li>
         
         <li className={s.item}>
-          <img src={window} alt="window" width='190' />
-          <p className={s.text}>window</p>
+          <img src={wind} alt="wind" width='190' />
+          <p className={s.text}>wind</p>
         </li>
       </ul>
     </div>
