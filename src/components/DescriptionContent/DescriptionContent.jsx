@@ -27,7 +27,7 @@ const DescriptionContent = () => {
         <li className={s.item}>
           <Link to="speaking">
             <h4 className={s.title}>Speaking block</h4>
-            <p className={s.text}>Meeting people</p>
+            <p className={s.text}>Time for a visit to a shoe shop</p>
           </Link>
         </li>
       </ul>
