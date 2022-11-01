@@ -15,13 +15,13 @@ const DescriptionContent = () => {
         <li className={s.item}>
           <Link to="grammar">
             <h4 className={s.title}>Grammar block</h4>
-            <p className={s.text}>Past Simple. Verb (to be)</p>
+            <p className={s.text}>Past Perfect Tense</p>
           </Link>
         </li>
         <li className={s.item}>
           <Link to="reading">
             <h4 className={s.title}>Reading block</h4>
-            <p className={s.text}>Poster at work</p>
+            <p className={s.text}>A message to a new friend</p>
           </Link>
         </li>
         <li className={s.item}>

@@ -11,7 +11,7 @@ const SpeakingPage = () => {
       <Section>
         <Task
           accentText="Exercise 1"
-          text="Watch the video and try to understand"
+          text="Sam's looking for some new trainers. Time for a visit to the shoe shop!"
         />
         <Video/>
       </Section>

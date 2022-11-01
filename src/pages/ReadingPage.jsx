@@ -12,7 +12,7 @@ const ReadingPage = () => {
       <Section>
         <Task
           accentText="Exercise 1"
-          text="Read an invitation to an office event to practise and improve your reading skills. Do the preparation task first. Then read the text and do the exercises."
+          text="Read a direct message on social media to practise and improve your reading skills. Do the preparation task first. Then read the text and do the exercises."
         />
         <Text text={DBText[0].text} title={DBText[0].title} />
       </Section>

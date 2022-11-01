@@ -1,5 +1,5 @@
 import React from 'react';
-import Poster from '../../../db/ReadingImages/poster.jpg'
+import Poster from '../../../db/ReadingImages/poster-one.jpg'
 import s from './Text.module.css';
 
 const Task = ({ text, title }) => {

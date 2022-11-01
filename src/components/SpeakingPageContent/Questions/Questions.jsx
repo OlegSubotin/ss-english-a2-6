@@ -6,27 +6,27 @@ const YoutubeEmbed = () => (
     <ol className={s.list}>
       <li className={s.item}>
         <p className={s.text}>
-          It's Makayla's first day at a new school?
+          What does Sam want to buy?
         </p>
       </li>
       <li className={s.item}>
         <p className={s.text}>
-          Does Makayla know a lot of people at the school?
+          How much do they cost?
         </p>
       </li>
       <li className={s.item}>
         <p className={s.text}>
-          Is Gemma rude and helpless?
+          What is Sam's size?
         </p>
       </li>
       <li className={s.item}>
         <p className={s.text}>
-          How old are the girls?
+          What color of trainers does he prefer?
         </p>
       </li>
       <li className={s.item}>
         <p className={s.text}>
-          How will Gemma help Makayla?
+          Finally, did Sam buy the trainers?
         </p>
       </li>
     </ol>
