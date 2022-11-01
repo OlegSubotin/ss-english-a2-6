@@ -1,0 +1,35 @@
+.wrapper {
+  margin: 20px;
+}
+
+.list .item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.item {
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  transition: all 0.4s ease-in-out;
+}
+
+.item:hover {
+  background-color: #eee;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: #1f2428;
+}
+
+.text {
+  margin: 0 0 10px;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #886478;
+}

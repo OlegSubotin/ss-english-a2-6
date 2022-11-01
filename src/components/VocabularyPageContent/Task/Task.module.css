@@ -1,0 +1,10 @@
+.text {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #886478;
+}
+
+.accent {
+  color: #1f2428;
+}

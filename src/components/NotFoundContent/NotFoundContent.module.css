@@ -1,0 +1,50 @@
+.section {
+  padding: 40px 0;
+  background: #fff;
+}
+
+.bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+}
+
+.title {
+  padding: 0 15px;
+  font-size: 46px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  color: #1f2428;
+  animation: reveal 3000ms ease-in-out forwards 200ms,
+    glow 2500ms linear infinite 2000ms;
+}
+
+@keyframes reveal {
+  80% {
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #fff;
+  }
+}
+
+.link {
+  color: #886478;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.link:hover {
+  color: #50a4ff;
+  background-color: #eee;
+}
