@@ -1,80 +1,80 @@
 import React from 'react';
 import s from "./WordsImagesList.module.css";
-import cloud from "../../../db/vocabularyImages/cloud.jpg"
-import cold from "../../../db/vocabularyImages/cold.jpg"
-import dry from "../../../db/vocabularyImages/dry.jpg"
-import fog from "../../../db/vocabularyImages/fog.jpg"
-import hot from "../../../db/vocabularyImages/hot.jpg"
-import rain from "../../../db/vocabularyImages/rain.jpg"
-import snow from "../../../db/vocabularyImages/snow.jpg"
-import storm from "../../../db/vocabularyImages/storm.jpg"
-import sun from "../../../db/vocabularyImages/sun.jpg"
-import warm from "../../../db/vocabularyImages/warm.jpg"
-import wet from "../../../db/vocabularyImages/wet.jpg"
-import wind from "../../../db/vocabularyImages/wind.jpg"
+import carrot from "../../../db/vocabularyImages/carrot.jpg"
+import potato from "../../../db/vocabularyImages/potato.jpg"
+import tomato from "../../../db/vocabularyImages/tomato.jpg"
+import onion from "../../../db/vocabularyImages/onion.jpg"
+import cabbage from "../../../db/vocabularyImages/cabbage.jpg"
+import peas from "../../../db/vocabularyImages/peas.jpg"
+import aubergine from "../../../db/vocabularyImages/aubergine.jpg"
+import lettuce from "../../../db/vocabularyImages/lettuce.jpg"
+import cucumber from "../../../db/vocabularyImages/cucumber.jpg"
+import sweetcorn from "../../../db/vocabularyImages/sweetcorn.jpg"
+import cauliflower from "../../../db/vocabularyImages/cauliflower.jpg"
+import pepper from "../../../db/vocabularyImages/pepper.jpg"
 
 const WordsImagesList = () => {
   return (
     <div>
       <ul className={s.list}>
         <li className={s.item}>
-          <img src={cloud} alt="cloud" width='190' />
-          <p className={s.text}>cloud</p>
+          <img src={carrot} alt="carrot" width='190' />
+          <p className={s.text}>carrot</p>
         </li>
 
         <li className={s.item}>
-          <img src={cold} alt="cold" width='190' />
-          <p className={s.text}>cold</p>
+          <img src={potato} alt="potato" width='190' />
+          <p className={s.text}>potato</p>
         </li>
         
         <li className={s.item}>
-          <img src={dry} alt="dry" width='190' />
-          <p className={s.text}>dry</p>
+          <img src={tomato} alt="tomato" width='190' />
+          <p className={s.text}>tomato</p>
         </li>
         
         <li className={s.item}>
-          <img src={fog} alt="fog" width='190' />
-          <p className={s.text}>fog</p>
+          <img src={onion} alt="onion" width='190' />
+          <p className={s.text}>onion</p>
         </li>
         
         <li className={s.item}>
-          <img src={hot} alt="hot" width='190' />
-          <p className={s.text}>hot</p>
+          <img src={cabbage} alt="cabbage" width='190' />
+          <p className={s.text}>cabbage</p>
         </li>
         
         <li className={s.item}>
-          <img src={rain} alt="rain" width='190' />
-          <p className={s.text}>rain</p>
+          <img src={peas} alt="peas" width='190' />
+          <p className={s.text}>peas</p>
         </li>
 
         <li className={s.item}>
-          <img src={snow} alt="snow" width='190' />
-          <p className={s.text}>snow</p>
+          <img src={aubergine} alt="aubergine" width='190' />
+          <p className={s.text}>aubergine</p>
         </li>
 
         <li className={s.item}>
-          <img src={storm} alt="storm" width='190' />
-          <p className={s.text}>storm</p>
+          <img src={lettuce} alt="lettuce" width='190' />
+          <p className={s.text}>lettuce</p>
         </li>
 
         <li className={s.item}>
-          <img src={sun} alt="sun" width='190' />
-          <p className={s.text}>sun</p>
+          <img src={cucumber} alt="cucumber" width='190' />
+          <p className={s.text}>cucumber</p>
         </li>
 
         <li className={s.item}>
-          <img src={warm} alt="warm" width='190' />
-          <p className={s.text}>warm</p>
+          <img src={sweetcorn} alt="sweetcorn" width='190' />
+          <p className={s.text}>sweetcorn</p>
         </li>
 
         <li className={s.item}>
-          <img src={wet} alt="wet" width='190' />
-          <p className={s.text}>wet</p>
+          <img src={cauliflower} alt="cauliflower" width='190' />
+          <p className={s.text}>cauliflower</p>
         </li>
         
         <li className={s.item}>
-          <img src={wind} alt="wind" width='190' />
-          <p className={s.text}>wind</p>
+          <img src={pepper} alt="pepper" width='190' />
+          <p className={s.text}>pepper</p>
         </li>
       </ul>
     </div>
