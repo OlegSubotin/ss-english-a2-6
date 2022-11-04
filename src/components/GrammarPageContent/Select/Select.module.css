@@ -62,7 +62,8 @@
 }
 
 .list li {
-  margin: 20px;
+  margin: 30px;
+  display: block;
 }
 
 .label {

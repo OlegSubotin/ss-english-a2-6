@@ -1,33 +1,14 @@
 const tasksSelect = [
   {
-    id: 1,
-    translate: 'Он сказал, что выиграл',
-    question: 'He said, that he ___',
-    variant1: 'win',
-    variant2: 'won',
-    variant3: 'had won',
-    variant4: 'has won',
-    correct: 'had won',
-  },
-  {
-    id: 2,
-    translate: 'Я знал, что это уже произошло',
-    question: 'I knew that it ___',
-    variant1: 'has almost happened',
-    variant2: 'have already happened',
-    variant3: 'had almost happened',
-    variant4: 'had already happened',
-    correct: 'had already happened',
-  },
-  {
     id: 3,
-    translate: 'Я был так счастлив, потому что сдал тест успешно',
-    question: 'I was so happy because I ___',
-    variant1: 'have passed the test successfully',
-    variant2: 'had passed the test successfully',
-    variant3: 'have pass the test successfully',
-    variant4: 'had pass the test successfully',
-    correct: 'had passed the test successfully',
+    translate:
+      'Я закончил смотреть то видео к тому времени, как они пришли ко мне',
+    question: 'I ___ to watch that video ___ they came to me',
+    variant1: 'had finished, by the time',
+    variant2: 'had ended, by the hour',
+    variant3: 'had ended, by the time',
+    variant4: 'had finished, by the hour',
+    correct: 'had finished, by the time',
   },
   {
     id: 4,
@@ -41,15 +22,13 @@ const tasksSelect = [
   },
   {
     id: 5,
-    translate:
-      'К тому времени, как я окончил школу, я уже достиг среднего уровня в английском',
-    question:
-      'By the time I finished school, I ___ the Intermediate level in English',
-    variant1: 'had already reached',
-    variant2: 'have already reached',
-    variant3: 'had already arrived',
-    variant4: 'have already arrived',
-    correct: 'had already reached',
+    translate: 'Когда она прибыла в аэропорт, самолет еще не приземлился',
+    question: 'When she ___ at the airport, the plane ___',
+    variant1: "arrived,  hadn't landed yet",
+    variant2: "came,  hadn't taken off yet",
+    variant3: "arrived,  hadn't landed already",
+    variant4: "left,  hadn't landed yet",
+    correct: "arrived,  hadn't landed yet",
   },
   {
     id: 6,
@@ -61,16 +40,7 @@ const tasksSelect = [
     variant4: 'had already quit',
     correct: 'had already left',
   },
-  {
-    id: 7,
-    translate: 'Я понял, что сделал ошибку',
-    question: 'I ___ that I had made a mistake',
-    variant1: 'understand',
-    variant2: 'had understood',
-    variant3: 'understood',
-    variant4: 'have understood',
-    correct: 'understood',
-  },
+
   {
     id: 8,
     translate: 'Он сказал, что провалил тест',
@@ -80,6 +50,17 @@ const tasksSelect = [
     variant3: 'told, has failed',
     variant4: 'said, had failed',
     correct: 'said, had failed',
+  },
+
+  {
+    id: 10,
+    translate: 'Я знал, что они обманули ее',
+    question: 'I ___ that they ___ her',
+    variant1: 'knew, had deceived',
+    variant2: 'known, had deceived',
+    variant3: 'knew, has deceived',
+    variant4: 'knew, have deceived',
+    correct: 'knew, had deceived',
   },
   {
     id: 9,
@@ -92,14 +73,37 @@ const tasksSelect = [
     correct: 'told, had noticed',
   },
   {
-    id: 10,
-    translate: 'Я знал, что они обманули ее',
-    question: 'I ___ that they ___ her',
-    variant1: 'knew, had deceived',
-    variant2: 'known, had deceived',
-    variant3: 'knew, has deceived',
-    variant4: 'knew, have deceived',
-    correct: 'knew, had deceived',
+    id: 7,
+    translate: 'Я понял, что сделал ошибку',
+    question: 'I ___ that I had made a mistake',
+    variant1: 'understand',
+    variant2: 'had understood',
+    variant3: 'understood',
+    variant4: 'have understood',
+    correct: 'understood',
+  },
+  {
+    id: 1,
+    translate:
+      'Она сказала, что никогда не была в таком красивом месте, потому что оно выглядело как настоящий рай',
+    question:
+      'She ___, she ___ to such a beautiful place because it looked like a real paradise',
+    variant1: 'told, had never been',
+    variant2: 'said, has never been',
+    variant3: 'told, had never been',
+    variant4: 'said, had never been',
+    correct: 'said, had never been',
+  },
+  {
+    id: 2,
+    translate:
+      'Я сказал ему, что я улучшил свой английский значительно благодаря этому методу',
+    question: 'I told him, I ___ my English ___ thanks to this method',
+    variant1: 'have improved, significantly',
+    variant2: 'had improved, significantly',
+    variant3: 'has improved, very much',
+    variant4: 'had improved, very much',
+    correct: 'had improved, significantly',
   },
 ];
 
