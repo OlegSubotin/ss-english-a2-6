@@ -9,7 +9,7 @@ const DescriptionContent = () => {
         <li className={s.item}>
           <Link to='vocabulary'>
             <h4 className={s.title}>Vocabulary block</h4>
-            <p className={s.text}>Vocabulary exercises to help learn words for talking about the weather. (hot, snow, wet, sun, dry, cold, storm, fog, wind, cloud, rain, warm).</p>
+            <p className={s.text}>Vocabulary exercises to help learn words for talking about the Vegetables. (cabbage, aubergine, pepper, cauliflower, carrot, sweetcorn, onion, cucumber, lettuce, potato, peas).</p>
           </Link>
         </li>
         <li className={s.item}>
@@ -21,13 +21,13 @@ const DescriptionContent = () => {
         <li className={s.item}>
           <Link to="reading">
             <h4 className={s.title}>Reading block</h4>
-            <p className={s.text}>A message to a new friend</p>
+            <p className={s.text}>An email from a friend</p>
           </Link>
         </li>
         <li className={s.item}>
           <Link to="speaking">
             <h4 className={s.title}>Speaking block</h4>
-            <p className={s.text}>Time for a visit to a shoe shop</p>
+            <p className={s.text}>Giving your opinion</p>
           </Link>
         </li>
       </ul>

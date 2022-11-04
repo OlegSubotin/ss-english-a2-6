@@ -3,7 +3,7 @@ import Container from 'components/VocabularyPageContent/Container';
 import Section from 'components/Section';
 import Task from 'components/VocabularyPageContent/Task';
 import Video from 'components/SpeakingPageContent/Video';
-import Questions from 'components/SpeakingPageContent/Questions';
+// import Questions from 'components/SpeakingPageContent/Questions';
 
 const SpeakingPage = () => {
   return (
@@ -11,17 +11,17 @@ const SpeakingPage = () => {
       <Section>
         <Task
           accentText="Exercise 1"
-          text="Sam's looking for some new trainers. Time for a visit to the shoe shop!"
+          text="Giving your opinion"
         />
         <Video/>
       </Section>
-      <Section>
+      {/* <Section>
         <Task
           accentText="Exercise 2"
           text="Answer the questions"
         />
         <Questions/>
-      </Section>
+      </Section> */}
     </Container>
   )
 }

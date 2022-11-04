@@ -53,9 +53,13 @@
 
 .form {
   margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .label {
+  display: block;
   cursor: pointer;
   position: relative;
   margin: 20px;
@@ -64,6 +68,7 @@
 input[type='radio'] {
   opacity: 0; /* hidden but still tabable */
   position: absolute;
+  margin: 30px;
 }
 
 input[type='radio']:checked + span {
@@ -90,6 +95,7 @@ input[type='radio']:checked + span {
 }
 
 .submitBtnWrapper {
+  width: 100%;
   margin-top: 40px;
   margin-bottom: 20px;
   display: flex;

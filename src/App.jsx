@@ -11,7 +11,7 @@ const VocabularyPage = lazy(() => import('./pages/VocabularyPage'));
 const GrammarPage = lazy(() => import('./pages/GrammarPage'));
 const ReadingPage = lazy(() => import('./pages/ReadingPage'));
 const SpeakingPage = lazy(() => import('./pages/SpeakingPage'));
-const HomeTaskPage = lazy(() => import('./pages/HomeTaskPage'));
+// const HomeTaskPage = lazy(() => import('./pages/HomeTaskPage'));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 
 
@@ -28,7 +28,7 @@ export const App = () => {
             <Route path="grammar" element={<GrammarPage />} />
             <Route path="reading" element={<ReadingPage />} />
             <Route path="speaking" element={<SpeakingPage />} />
-            <Route path="practice" element={<HomeTaskPage />} />
+            {/* <Route path="practice" element={<HomeTaskPage />} /> */}
           </Route>
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
